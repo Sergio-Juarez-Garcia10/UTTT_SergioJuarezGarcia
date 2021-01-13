@@ -24,6 +24,7 @@ namespace UTTT.Ejemplo.Persona.Control.Ctrl
         {
             try
             {
+                //Cambios
                 SqlConnection conexion = new SqlConnection("Data Source=DBPersona.mssql.somee.com;Initial Catalog=DBPersona;Persist Security Info=True;User ID=desarrolloWebP_SQLLogin_1;Password=puf5x2lb7r");
                 return conexion;
             }
