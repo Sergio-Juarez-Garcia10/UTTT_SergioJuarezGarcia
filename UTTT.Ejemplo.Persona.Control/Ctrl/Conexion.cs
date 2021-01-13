@@ -24,7 +24,7 @@ namespace UTTT.Ejemplo.Persona.Control.Ctrl
         {
             try
             {
-                SqlConnection conexion = new SqlConnection("Data Source=CX-CORP04\\MSSQLSERVER12;Initial Catalog=Persona;User ID=sa;Password=sqlexpress");
+                SqlConnection conexion = new SqlConnection("Data Source=DBPersona.mssql.somee.com;Initial Catalog=DBPersona;Persist Security Info=True;User ID=desarrolloWebP_SQLLogin_1;Password=puf5x2lb7r");
                 return conexion;
             }
             catch (Exception _e)
